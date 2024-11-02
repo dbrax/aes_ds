@@ -269,7 +269,7 @@ class IopClient
     {
         $localIp = isset($_SERVER["SERVER_ADDR"]) ? $_SERVER["SERVER_ADDR"] : "CLI";
         $logger = new IopLogger;
-        $logger->conf["log_file"] = rtrim(IOP_SDK_WORK_DIR, '\\/') . '/' . "logs/iopsdk.log." . date("Y-m-d");
+        $logger->conf["log_file"] = rtrim("../", '\\/') . '/' . "logs/iopsdk.log." . date("Y-m-d");
         $logger->conf["separator"] = "^_^";
         $logData = array(
             date("Y-m-d H:i:s"),

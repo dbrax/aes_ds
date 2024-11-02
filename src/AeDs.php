@@ -17,8 +17,8 @@ class AeDs
         // $client = new IopClientImpl($url, $appkey, $appSecret);
         $client = new IopClient(UrlConstants::$api_authorization_url, $app_key, $app_secret);
         $request = new IopRequest($action);
-        //$request->setApiName($action);
-        // $request->addApiParameter("code", "your_code");
+        // $request->setApiName($action);
+        $request->addApiParam("code", 0);
 
         try {
             $response = $client->execute($request, null);

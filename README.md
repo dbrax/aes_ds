@@ -1,10 +1,6 @@
-# Very short description of the package
-
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/epmnzava/ae_ds.svg?style=flat-square)](https://packagist.org/packages/epmnzava/ae_ds)
 [![Total Downloads](https://img.shields.io/packagist/dt/epmnzava/ae_ds.svg?style=flat-square)](https://packagist.org/packages/epmnzava/ae_ds)
 ![GitHub Actions](https://github.com/epmnzava/ae_ds/actions/workflows/main.yml/badge.svg)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
 ## Installation
 
@@ -40,13 +36,9 @@ If you discover any security related issues, please email epmnzava@gmail.com ins
 
 ## Credits
 
--   [Emmanuel paul Mnzava](https://github.com/epmnzava)
--   [All Contributors](../../contributors)
+- [Emmanuel paul Mnzava](https://github.com/epmnzava)
+- [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## PHP Package Boilerplate
-
-This package was generated using the [PHP Package Boilerplate](https://laravelpackageboilerplate.com) by [Beyond Code](http://beyondco.de/).

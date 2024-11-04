@@ -43,7 +43,7 @@ class AeDs
 
     public function getCategories($lang)
     {
-        $token = $this->getAccessToken();
+        //$token = $this->getAccessToken();
         $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
         $request = new IopRequest('aliexpress.ds.category.get');
         //$request->addApiParam('categoryId', '15');

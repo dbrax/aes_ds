@@ -23,9 +23,9 @@ class AeDs
     public function getAccessToken()
     {
         $action = "/auth/token/create";
+        $client = new IopClient(UrlConstants::$api_authorization_url, $this->app_key, $this->app_secret);
 
         // $client = new IopClientImpl($url, $appkey, $appSecret);
-        $client = new IopClient(UrlConstants::$api_authorization_url, $this->app_key, $this->app_secret);
         $request = new IopRequest($action);
         // $request->setApiName($action);
         $request->addApiParam("code", $this->code);
@@ -48,6 +48,33 @@ class AeDs
         $request = new IopRequest('aliexpress.ds.category.get');
         //$request->addApiParam('categoryId', '15');
         $request->addApiParam('language', $lang);
+        $request->addApiParam('app_signature', 'sgi');
+        $res = $c->execute($request);
+
+        return $res;
+    }
+
+    public function getCategoryById($categoryid, $lang)
+    {
+        //$token = $this->getAccessToken();
+        $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
+        $request = new IopRequest('aliexpress.ds.category.get');
+        $request->addApiParam('categoryId', $categoryid);
+        $request->addApiParam('language', $lang);
+        $request->addApiParam('app_signature', 'sgi');
+        $res = $c->execute($request);
+
+        return $res;
+    }
+
+
+
+
+    public function getFeedName()
+    {
+        //$token = $this->getAccessToken();
+        $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
+        $request = new IopRequest('aliexpress.ds.feedname.get');
         $request->addApiParam('app_signature', 'sgi');
         $res = $c->execute($request);
 

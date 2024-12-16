@@ -1,0 +1,716 @@
+{
+    "aliexpress_ds_feedname_get_response": {
+      "resp_result": {
+        "result": {
+          "current_record_count": 140,
+          "promos": {
+            "promo": [
+              {
+                "promo_name": "3SproductZA",
+                "promo_desc": "3SproductZA",
+                "product_num": 11585
+              },
+              {
+                "promo_name": "440 release1",
+                "promo_desc": "440 release1",
+                "product_num": 291570
+              },
+              {
+                "promo_name": "440release2",
+                "promo_desc": "440release2",
+                "product_num": 625865
+              },
+              {
+                "promo_name": "440release3",
+                "promo_desc": "440release3",
+                "product_num": 16767
+              },
+              {
+                "promo_name": "440release4",
+                "promo_desc": "440release4",
+                "product_num": 356139
+              },
+              {
+                "promo_name": "AEB_ SummerProducts_EG",
+                "promo_desc": "AEB_ SummerProducts_EG",
+                "product_num": 24261
+              },
+              {
+                "promo_name": "AEB_AU_EbestSelectedItems_20240925",
+                "promo_desc": "AEB_AU_EbestSelectedItems_20240925",
+                "product_num": 65346
+              },
+              {
+                "promo_name": "AEB_AU_HomeImprovement&Furniture&Lights&Tools&Luggage",
+                "promo_desc": "AEB_AU_HomeImprovement&Furniture&Lights&Tools&Luggage",
+                "product_num": 70003
+              },
+              {
+                "promo_name": "AEB_BR_DropiSelectedItems_20241106",
+                "promo_desc": "AEB_BR_DropiSelectedItems_20241106",
+                "product_num": 269082
+              },
+              {
+                "promo_name": "AEB_BR_ShipFromBR_20241114",
+                "promo_desc": "AEB_BR_ShipFromBR_20241114",
+                "product_num": 114239
+              },
+              {
+                "promo_name": "AEB_CETagItems_20241017",
+                "promo_desc": "AEB_CETagItems_20241017",
+                "product_num": 10
+              },
+              {
+                "promo_name": "AEB_ClawEden_SexItem&Applicance_In$50_20241206",
+                "promo_desc": "AEB_ClawEden_SexItem&Applicance_In$50_20241206",
+                "product_num": 2546
+              },
+              {
+                "promo_name": "AEB_Droplo_BestsellersItems_20241016",
+                "promo_desc": "AEB_Droplo_BestsellersItems_20241016",
+                "product_num": 232401
+              },
+              {
+                "promo_name": "AEB_EAN Items",
+                "promo_desc": "AEB_EAN Items",
+                "product_num": 7
+              },
+              {
+                "promo_name": "AEB_ES_LocalStock_PlatformOperation_20240926",
+                "promo_desc": "AEB_ES_LocalStock_PlatformOperation_20240926",
+                "product_num": 16777
+              },
+              {
+                "promo_name": "AEB_FR_LocalStock_PlatformOperation_20240926",
+                "promo_desc": "AEB_FR_LocalStock_PlatformOperation_20240926",
+                "product_num": 17154
+              },
+              {
+                "promo_name": "AEB_Fetch_Garden&Tool&Pet&AutoParts_TopSellers_20241210",
+                "promo_desc": "AEB_Fetch_Garden&Tool&Pet&AutoParts_TopSellers_20241210",
+                "product_num": 10
+              },
+              {
+                "promo_name": "AEB_Global_HighCommission_20240928",
+                "promo_desc": "AEB_Global_HighCommission_20240928",
+                "product_num": 2
+              },
+              {
+                "promo_name": "AEB_Iraq_Akkooo_WomenClothing_20241031",
+                "promo_desc": "AEB_Iraq_Akkooo_WomenClothing_20241031",
+                "product_num": 219080
+              },
+              {
+                "promo_name": "AEB_MX_ShipFromMX_20241119",
+                "promo_desc": "AEB_MX_ShipFromMX_20241119",
+                "product_num": 579250
+              },
+              {
+                "promo_name": "AEB_Mexico_SelectedItems_20241014",
+                "promo_desc": "AEB_Mexico_SelectedItems_20241014",
+                "product_num": 6501
+              },
+              {
+                "promo_name": "AEB_Poland_LocalStock_PlatformOperation_20241028",
+                "promo_desc": "AEB_Poland_LocalStock_PlatformOperation_20241028",
+                "product_num": 2
+              },
+              {
+                "promo_name": "AEB_SA_AutoDrop_Choice_FastDelivery_20241009",
+                "promo_desc": "AEB_SA_AutoDrop_Choice_FastDelivery_20241009",
+                "product_num": 286674
+              },
+              {
+                "promo_name": "AEB_SA_Bag&Shoe&Accessories&Clothing&LightweightMachine_5~50USD",
+                "promo_desc": "AEB_SA_Bag&Shoe&Accessories&Clothing&LightweightMachine_5~50USD",
+                "product_num": 2
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_ApparelAccessories_$0~10_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_ApparelAccessories_$0~10_20241115",
+                "product_num": 10769
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_ApparelAccessories_$30+_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_ApparelAccessories_$30+_20241115",
+                "product_num": 12424
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_HairExtensions&Wigs_$50+_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_HairExtensions&Wigs_$50+_20241115",
+                "product_num": 7819
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_Luggage&Bags_$0~10_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_Luggage&Bags_$0~10_20241115",
+                "product_num": 10367
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_Luggage&Bags_$30+_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_Luggage&Bags_$30+_20241115",
+                "product_num": 9832
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_MenClothing_$10~30_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_MenClothing_$10~30_20241115",
+                "product_num": 10508
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_MenClothing_$30+_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_MenClothing_$30+_20241115",
+                "product_num": 13406
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_Mother&Kids_$10~30_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_Mother&Kids_$10~30_20241115",
+                "product_num": 11411
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_Mother&Kids_$30+_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_Mother&Kids_$30+_20241115",
+                "product_num": 9135
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_SelectedItemsOfAllCategory_20241119",
+                "promo_desc": "AEB_SHOPLAZZA_SelectedItemsOfAllCategory_20241119",
+                "product_num": 373887
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_Shoes_$10~30_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_Shoes_$10~30_20241115",
+                "product_num": 10312
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_Shoes_$30+_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_Shoes_$30+_20241115",
+                "product_num": 10019
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_Toys&Hobbies_$0~10_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_Toys&Hobbies_$0~10_20241115",
+                "product_num": 14454
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_Toys&Hobbies_$10~20_20241118",
+                "promo_desc": "AEB_SHOPLAZZA_Toys&Hobbies_$10~20_20241118",
+                "product_num": 14061
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_WomenClothing_$0~10_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_WomenClothing_$0~10_20241115",
+                "product_num": 10612
+              },
+              {
+                "promo_name": "AEB_SHOPLAZZA_WomenClothing_$10~30_20241115",
+                "promo_desc": "AEB_SHOPLAZZA_WomenClothing_$10~30_20241115",
+                "product_num": 10217
+              },
+              {
+                "promo_name": "AEB_SexProduct_ShipFromUSDEUK_20241125",
+                "promo_desc": "AEB_SexProduct_ShipFromUSDEUK_20241125",
+                "product_num": 3
+              },
+              {
+                "promo_name": "AEB_ShipFromEUtoDE_20241119",
+                "promo_desc": "AEB_ShipFromEUtoDE_20241119",
+                "product_num": 254054
+              },
+              {
+                "promo_name": "AEB_ShipFromEUtoNL_20241119",
+                "promo_desc": "AEB_ShipFromEUtoNL_20241119",
+                "product_num": 630836
+              },
+              {
+                "promo_name": "AEB_ShipFromIL_20241119",
+                "promo_desc": "AEB_ShipFromIL_20241119",
+                "product_num": 68974
+              },
+              {
+                "promo_name": "AEB_ShipFromKR_20241120",
+                "promo_desc": "AEB_ShipFromKR_20241120",
+                "product_num": 286637
+              },
+              {
+                "promo_name": "AEB_ShipFromUS_20241119",
+                "promo_desc": "AEB_ShipFromUS_20241119",
+                "product_num": 628692
+              },
+              {
+                "promo_name": "AEB_Shoplazza_BasicItemPool_20241011",
+                "promo_desc": "AEB_Shoplazza_BasicItemPool_20241011",
+                "product_num": 606217
+              },
+              {
+                "promo_name": "AEB_TK_automobiles&motorcycle_localstock",
+                "promo_desc": "AEB_TK_automobiles&motorcycle_localstock",
+                "product_num": 7865
+              },
+              {
+                "promo_name": "AEB_TK_beauty&health_localstock",
+                "promo_desc": "AEB_TK_beauty&health_localstock",
+                "product_num": 800
+              },
+              {
+                "promo_name": "AEB_TK_home_localstock",
+                "promo_desc": "AEB_TK_home_localstock",
+                "product_num": 9388
+              },
+              {
+                "promo_name": "AEB_TK_sports_localstock",
+                "promo_desc": "AEB_TK_sports_localstock",
+                "product_num": 1004
+              },
+              {
+                "promo_name": "AEB_TK_wigs_localstock",
+                "promo_desc": "AEB_TK_wigs_localstock",
+                "product_num": 2988
+              },
+              {
+                "promo_name": "AEB_Topseller_PriceRange0_20",
+                "promo_desc": "AEB_Topseller_PriceRange0_20",
+                "product_num": 444059
+              },
+              {
+                "promo_name": "AEB_UK Local Items",
+                "promo_desc": "AEB_UK Local Items",
+                "product_num": 2
+              },
+              {
+                "promo_name": "AEB_UK_AvasamSelectedItems_20241009",
+                "promo_desc": "AEB_UK_AvasamSelectedItems_20241009",
+                "product_num": 559195
+              },
+              {
+                "promo_name": "AEB_UK_AvasamSelectedItems_20241101",
+                "promo_desc": "AEB_UK_AvasamSelectedItems_20241101",
+                "product_num": 634427
+              },
+              {
+                "promo_name": "AEB_UK_AvasamSelectedItems_Accessories_20241017",
+                "promo_desc": "AEB_UK_AvasamSelectedItems_Accessories_20241017",
+                "product_num": 168941
+              },
+              {
+                "promo_name": "AEB_UK_AvasamSelectedItems_ShipFromUK_20241126",
+                "promo_desc": "AEB_UK_AvasamSelectedItems_ShipFromUK_20241126",
+                "product_num": 4252
+              },
+              {
+                "promo_name": "AEB_UK_LocalStock_PlatformOperation_20240926",
+                "promo_desc": "AEB_UK_LocalStock_PlatformOperation_20240926",
+                "product_num": 178629
+              },
+              {
+                "promo_name": "AEB_UK_SelectedItems",
+                "promo_desc": "AEB_UK_SelectedItems",
+                "product_num": 94252
+              },
+              {
+                "promo_name": "AEB_UK_ShipFromUK_20241114",
+                "promo_desc": "AEB_UK_ShipFromUK_20241114",
+                "product_num": 175596
+              },
+              {
+                "promo_name": "AEB_US Local Items",
+                "promo_desc": "AEB_US Local Items",
+                "product_num": 15
+              },
+              {
+                "promo_name": "AEB_US Local Stock_Wigs",
+                "promo_desc": "AEB_US Local Stock_Wigs",
+                "product_num": 46
+              },
+              {
+                "promo_name": "AEB_USTK_Test 21SPU",
+                "promo_desc": "AEB_USTK_Test 21SPU",
+                "product_num": 44
+              },
+              {
+                "promo_name": "AEB_USTK_Test_9SPU_20240829",
+                "promo_desc": "AEB_USTK_Test_9SPU_20240829",
+                "product_num": 1
+              },
+              {
+                "promo_name": "AEB_US_Furniture_TopSellers",
+                "promo_desc": "AEB_US_Furniture_TopSellers",
+                "product_num": 78692
+              },
+              {
+                "promo_name": "AEB_US_Home&Garden_TopSellers",
+                "promo_desc": "AEB_US_Home&Garden_TopSellers",
+                "product_num": 7531
+              },
+              {
+                "promo_name": "AEB_US_LocalStock_CaiNiaoWareshouse_20240830",
+                "promo_desc": "AEB_US_LocalStock_CaiNiaoWareshouse_20240830",
+                "product_num": 2
+              },
+              {
+                "promo_name": "AEB_US_LocalStock_Choice_20240830",
+                "promo_desc": "AEB_US_LocalStock_Choice_20240830",
+                "product_num": 64369
+              },
+              {
+                "promo_name": "AEB_US_Local_PlatformOperatedItems",
+                "promo_desc": "AEB_US_Local_PlatformOperatedItems",
+                "product_num": 89736
+              },
+              {
+                "promo_name": "AEB_US_NewArrivals",
+                "promo_desc": "AEB_US_NewArrivals",
+                "product_num": 41040
+              },
+              {
+                "promo_name": "AEB_US_ShipFromCN_Home&Furniture&Outdoor&Sport&Beauty",
+                "promo_desc": "AEB_US_ShipFromCN_Home&Furniture&Outdoor&Sport&Beauty",
+                "product_num": 187084
+              },
+              {
+                "promo_name": "AEB_WholesalePriceGood_20241205",
+                "promo_desc": "AEB_WholesalePriceGood_20241205",
+                "product_num": 629641
+              },
+              {
+                "promo_name": "Afrine_HairExtenion&wig",
+                "promo_desc": "Afrine_HairExtenion&wig",
+                "product_num": 2549
+              },
+              {
+                "promo_name": "Afrine_Home&garden",
+                "promo_desc": "Afrine_Home&garden",
+                "product_num": 28026
+              },
+              {
+                "promo_name": "Afrine_baby&kids",
+                "promo_desc": "Afrine_baby&kids",
+                "product_num": 3129
+              },
+              {
+                "promo_name": "Christmas-Selectedgoods2023",
+                "promo_desc": "Christmas-Selectedgoods2023",
+                "product_num": 3319
+              },
+              {
+                "promo_name": "DS_ SaudiArabia_Clothing&BeautyMachines_100$-",
+                "promo_desc": "DS_ SaudiArabia_Clothing&BeautyMachines_100$-",
+                "product_num": 635837
+              },
+              {
+                "promo_name": "DS_Australia_fastdelivery 20231123",
+                "promo_desc": "DS_Australia_fastdelivery 20231123",
+                "product_num": 635234
+              },
+              {
+                "promo_name": "DS_Automobile&Accessories_bestsellers",
+                "promo_desc": "DS_Automobile&Accessories_bestsellers",
+                "product_num": 4911
+              },
+              {
+                "promo_name": "DS_Automotive&Motorcycle 10$+",
+                "promo_desc": "DS_Automotive&Motorcycle 10$+",
+                "product_num": 18241
+              },
+              {
+                "promo_name": "DS_Automotive&Motorcycle&Parts_limited stores",
+                "promo_desc": "DS_Automotive&Motorcycle&Parts_limited stores",
+                "product_num": 19712
+              },
+              {
+                "promo_name": "DS_Beauty_bestsellers",
+                "promo_desc": "DS_Beauty_bestsellers",
+                "product_num": 494
+              },
+              {
+                "promo_name": "DS_BoxingDayEssentials",
+                "promo_desc": "DS_BoxingDayEssentials",
+                "product_num": 5813
+              },
+              {
+                "promo_name": "DS_Brazil_topsellers",
+                "promo_desc": "DS_Brazil_topsellers",
+                "product_num": 46009
+              },
+              {
+                "promo_name": "DS_ConsumerElectronics_bestsellers",
+                "promo_desc": "DS_ConsumerElectronics_bestsellers",
+                "product_num": 70631
+              },
+              {
+                "promo_name": "DS_CyberMondayEssentials",
+                "promo_desc": "DS_CyberMondayEssentials",
+                "product_num": 32081
+              },
+              {
+                "promo_name": "DS_DentalCare_stores",
+                "promo_desc": "DS_DentalCare_stores",
+                "product_num": 13085
+              },
+              {
+                "promo_name": "DS_DentalEquipment&Supplies",
+                "promo_desc": "DS_DentalEquipment&Supplies",
+                "product_num": 98633
+              },
+              {
+                "promo_name": "DS_Fashions&Cosmetics 20$+",
+                "promo_desc": "DS_Fashions&Cosmetics 20$+",
+                "product_num": 2
+              },
+              {
+                "promo_name": "DS_France_fastdelivery 20231123",
+                "promo_desc": "DS_France_fastdelivery 20231123",
+                "product_num": 2133
+              },
+              {
+                "promo_name": "DS_France_topsellers",
+                "promo_desc": "DS_France_topsellers",
+                "product_num": 40871
+              },
+              {
+                "promo_name": "DS_Germany_fastdelivery 20231123",
+                "promo_desc": "DS_Germany_fastdelivery 20231123",
+                "product_num": 4480
+              },
+              {
+                "promo_name": "DS_Global_topsellers",
+                "promo_desc": "DS_Global_topsellers",
+                "product_num": 37806
+              },
+              {
+                "promo_name": "DS_HairRemoval&Lights&Tools 10$+",
+                "promo_desc": "DS_HairRemoval&Lights&Tools 10$+",
+                "product_num": 8488
+              },
+              {
+                "promo_name": "DS_Home&Kitchen_bestsellers",
+                "promo_desc": "DS_Home&Kitchen_bestsellers",
+                "product_num": 53738
+              },
+              {
+                "promo_name": "DS_Jewelry&Watch 10$+",
+                "promo_desc": "DS_Jewelry&Watch 10$+",
+                "product_num": 5581
+              },
+              {
+                "promo_name": "DS_Korea_topsellers",
+                "promo_desc": "DS_Korea_topsellers",
+                "product_num": 42255
+              },
+              {
+                "promo_name": "DS_Mexico_fastdelivery 20231123",
+                "promo_desc": "DS_Mexico_fastdelivery 20231123",
+                "product_num": 395
+              },
+              {
+                "promo_name": "DS_Mother&Kids 10$+",
+                "promo_desc": "DS_Mother&Kids 10$+",
+                "product_num": 4879
+              },
+              {
+                "promo_name": "DS_NewYear'sEveEssentials",
+                "promo_desc": "DS_NewYear'sEveEssentials",
+                "product_num": 64794
+              },
+              {
+                "promo_name": "DS_Poland_fastdelivery 20231123",
+                "promo_desc": "DS_Poland_fastdelivery 20231123",
+                "product_num": 3
+              },
+              {
+                "promo_name": "DS_RespiratoryEquipment_stores",
+                "promo_desc": "DS_RespiratoryEquipment_stores",
+                "product_num": 44
+              },
+              {
+                "promo_name": "DS_Spain_fastdelivery 20231123",
+                "promo_desc": "DS_Spain_fastdelivery 20231123",
+                "product_num": 2141
+              },
+              {
+                "promo_name": "DS_Sports&Outdoors_bestsellers",
+                "promo_desc": "DS_Sports&Outdoors_bestsellers",
+                "product_num": 5
+              },
+              {
+                "promo_name": "DS_Sports-Clothing&Shoes",
+                "promo_desc": "DS_Sports-Clothing&Shoes",
+                "product_num": 44428
+              },
+              {
+                "promo_name": "DS_ThanksgivingDayEssentials",
+                "promo_desc": "DS_ThanksgivingDayEssentials",
+                "product_num": 45563
+              },
+              {
+                "promo_name": "DS_UK_fastdelivery 20231123",
+                "promo_desc": "DS_UK_fastdelivery 20231123",
+                "product_num": 40058
+              },
+              {
+                "promo_name": "DS_US_topsellers",
+                "promo_desc": "DS_US_topsellers",
+                "product_num": 41276
+              },
+              {
+                "promo_name": "DS_Winter-must-haves",
+                "promo_desc": "DS_Winter-must-haves",
+                "product_num": 45429
+              },
+              {
+                "promo_name": "DS_healthcaredevices_stores",
+                "promo_desc": "DS_healthcaredevices_stores",
+                "product_num": 16324
+              },
+              {
+                "promo_name": "MAPOPfreeshipping",
+                "promo_desc": "MAPOPfreeshipping",
+                "product_num": 22301
+              },
+              {
+                "promo_name": "MONSAproductkenya",
+                "promo_desc": "MONSAproductkenya",
+                "product_num": 2
+              },
+              {
+                "promo_name": "MiddleEast Pure Selection",
+                "promo_desc": "MiddleEast Pure Selection",
+                "product_num": 22609
+              },
+              {
+                "promo_name": "NG Hair category 7.19",
+                "promo_desc": "NG Hair category 7.19",
+                "product_num": 2868
+              },
+              {
+                "promo_name": "NG topseller 7.17",
+                "promo_desc": "NG topseller 7.17",
+                "product_num": 180756
+              },
+              {
+                "promo_name": "PURE1",
+                "promo_desc": "PURE1",
+                "product_num": 4888
+              },
+              {
+                "promo_name": "PURE3",
+                "promo_desc": "PURE3",
+                "product_num": 3503
+              },
+              {
+                "promo_name": "PUREtopsellerNG",
+                "promo_desc": "PUREtopsellerNG",
+                "product_num": 2055
+              },
+              {
+                "promo_name": "PURE中东top seller商品",
+                "promo_desc": "PURE中东top seller商品",
+                "product_num": 23766
+              },
+              {
+                "promo_name": "Ramdan_EG top seller_ 20240312",
+                "promo_desc": "Ramdan_EG top seller_ 20240312",
+                "product_num": 54716
+              },
+              {
+                "promo_name": "SA_Clothing&Shoes",
+                "promo_desc": "SA_Clothing&Shoes",
+                "product_num": 324816
+              },
+              {
+                "promo_name": "Security_ZA topsellers_ 20240423",
+                "promo_desc": "Security_ZA topsellers_ 20240423",
+                "product_num": 27320
+              },
+              {
+                "promo_name": "TOFA-selection-Freeshipping",
+                "promo_desc": "TOFA-selection-Freeshipping",
+                "product_num": 11705
+              },
+              {
+                "promo_name": "TOFAPOPfreeshipping",
+                "promo_desc": "TOFAPOPfreeshipping",
+                "product_num": 1222
+              },
+              {
+                "promo_name": "Twiva product selection",
+                "promo_desc": "Twiva product selection",
+                "product_num": 598459
+              },
+              {
+                "promo_name": "US 3PL-Warehouse 20240202",
+                "promo_desc": "US 3PL-Warehouse 20240202",
+                "product_num": 100352
+              },
+              {
+                "promo_name": "US CN-Warehouse 20240202",
+                "promo_desc": "US CN-Warehouse 20240202",
+                "product_num": 19349
+              },
+              {
+                "promo_name": "US_Dolls&Accessories",
+                "promo_desc": "US_Dolls&Accessories",
+                "product_num": 128434
+              },
+              {
+                "promo_name": "babyproducts_EG top seller_ 20240312",
+                "promo_desc": "babyproducts_EG top seller_ 20240312",
+                "product_num": 44804
+              },
+              {
+                "promo_name": "car&accessories_ZA topsellers_ 20240423",
+                "promo_desc": "car&accessories_ZA topsellers_ 20240423",
+                "product_num": 50867
+              },
+              {
+                "promo_name": "computer&office_ZA topsellers_ 20240423",
+                "promo_desc": "computer&office_ZA topsellers_ 20240423",
+                "product_num": 38961
+              },
+              {
+                "promo_name": "consumer electronics_ZA topsellers_ 20240423",
+                "promo_desc": "consumer electronics_ZA topsellers_ 20240423",
+                "product_num": 43911
+              },
+              {
+                "promo_name": "furniture_ZA topsellers_ 20240423",
+                "promo_desc": "furniture_ZA topsellers_ 20240423",
+                "product_num": 37518
+              },
+              {
+                "promo_name": "garden_ZA topsellers_ 20240423",
+                "promo_desc": "garden_ZA topsellers_ 20240423",
+                "product_num": 19470
+              },
+              {
+                "promo_name": "motorcycle&accessories_ZA topsellers_ 20240423",
+                "promo_desc": "motorcycle&accessories_ZA topsellers_ 20240423",
+                "product_num": 22317
+              },
+              {
+                "promo_name": "pets&supplies_ZA topsellers_ 20240423",
+                "promo_desc": "pets&supplies_ZA topsellers_ 20240423",
+                "product_num": 49132
+              },
+              {
+                "promo_name": "senegalsodishop",
+                "promo_desc": "senegalsodishop",
+                "product_num": 22123
+              },
+              {
+                "promo_name": "tanzaniaselection",
+                "promo_desc": "tanzaniaselection",
+                "product_num": 20794
+              },
+              {
+                "promo_name": "tool_ZA topsellers_ 20240423",
+                "promo_desc": "tool_ZA topsellers_ 20240423",
+                "product_num": 39987
+              }
+            ]
+          }
+        },
+        "resp_code": 200,
+        "resp_msg": "Call succeeds"
+      },
+      "request_id": "21410fef17343443055474652"
+    }
+  }

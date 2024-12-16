@@ -9,10 +9,13 @@ class AeDs
 
     protected $token;
     protected $client;
+    protected $app_client;
+
     protected $code;
     protected $refresh_token;
     protected $app_key;
     protected $app_secret;
+
     public function __construct($app_key, $app_secret, $code)
     {
         $this->app_key = $app_key;
@@ -44,6 +47,29 @@ class AeDs
     }
 
 
+
+    public function getRefreshToken($refresh_token)
+    {
+        $action = "/auth/token/refresh";
+        $client = new IopClient(UrlConstants::$api_authorization_url, $this->app_key, $this->app_secret);
+
+        // $client = new IopClientImpl($url, $appkey, $appSecret);
+        $request = new IopRequest($action);
+        // $request->setApiName($action);
+        $request->addApiParam("refresh_token", $refresh_token);
+
+        try {
+            $response = $client->execute($request, null);
+            $this->token = json_decode($response)->access_token;
+
+            $this->refresh_token = json_decode($response)->refresh_token;
+            return json_decode($response)->access_token;
+        } catch (Exception $e) {
+            echo $e->getMessage();
+        }
+    }
+
+
     public function getProduct($product_id, $currency = "TZS", $language = "en", $shipCountryCode = "TZ",)
     {
         $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
@@ -58,20 +84,20 @@ class AeDs
         return $res;
     }
 
-    public  function getProducts($category_id, $search_term = null, $result_size = 200, $feed_name = "DS bestseller")
+    public  function getProducts($category_id, $token, $search_term = null, $result_size = 200, $feed_name = "DS bestseller")
     {
-        $this->getAccessToken();
+        // $token = $this->getAccessToken();
         $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
         $request = new IopRequest('aliexpress.ds.feed.itemids.get');
         $request->addApiParam('page_size', $result_size);
         $request->addApiParam('category_id', $category_id);
         $request->addApiParam('feed_name', $feed_name);
         $request->addApiParam('search_id', $search_term);
-        $res = $c->execute($request,  $this->refresh_token);
+        $res = $c->execute($request,  $token);
         return $res;
     }
 
-    public function search_product($keyword, $currency = "TZS", $sort_by = "min_price,asc", $categoryid = null, $local = "zh_CN", $countryCode = "TZ", $page_size = "20", $pageIndex = 1)
+    public function search_product($token, $keyword, $currency = "TZS", $sort_by = "min_price,asc", $categoryid = null, $local = "zh_CN", $countryCode = "TZ", $page_size = "20", $pageIndex = 1)
     {
 
         $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
@@ -85,9 +111,9 @@ class AeDs
         $request->addApiParam('pageIndex', $pageIndex);
         $request->addApiParam('currency', $currency);
 
-        $this->getAccessToken();
+        // $this->getAccessToken();
 
-        $res = $c->execute($request, $this->refresh_token);
+        $res = $c->execute($request, $token);
 
         return $res;
     }

@@ -158,7 +158,7 @@ class AeDs
         return $res;
     }
 
-    public function getItemListByFeedName($token, $feed_name = 'DS bestseller', $category_id = null, $country = "TZ", $target_currency = "TZS", $target_language = "en", $page_size = 50, $sort = "DSRratingAsc", $page_no = null)
+    public function getItemListByFeedName($feed_name = 'DS bestseller', $page_no = 1, $page_size = 50, $category_id = null, $country = "TZ", $target_currency = "TZS", $target_language = "en", $sort = "DSRratingAsc")
     {
         $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
 

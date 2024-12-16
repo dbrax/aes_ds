@@ -70,7 +70,8 @@ class AeDs
     }
 
 
-    public function getProduct($product_id, $currency = "TZS", $language = "en", $shipCountryCode = "TZ",)
+
+    public function getProduct($token, $product_id, $currency = "TZS", $language = "en", $shipCountryCode = "TZ",)
     {
         $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
         $request = new IopRequest('aliexpress.ds.product.get');
@@ -79,7 +80,7 @@ class AeDs
         $request->addApiParam('product_id', $product_id);
         $request->addApiParam('target_currency', $currency);
         $request->addApiParam('target_language', $language);
-        $res = $c->execute($request);
+        $res = $c->execute($request, $token);
 
         return $res;
     }
@@ -154,6 +155,23 @@ class AeDs
         $request->addApiParam('app_signature', 'sgi');
         $res = $c->execute($request);
 
+        return $res;
+    }
+
+    public function getItemListByFeedName($token, $feed_name = 'DS bestseller', $category_id = null, $country = "TZ", $target_currency = "TZS", $target_language = "en", $page_size = 50, $sort = "DSRratingAsc", $page_no = null)
+    {
+        $c = new IopClient(UrlConstants::$api_gateway_url_tw, $this->app_key, $this->app_secret);
+
+        $request = new IopRequest('aliexpress.ds.recommend.feed.get');
+        $request->addApiParam('country', $country);
+        $request->addApiParam('target_currency', $target_currency);
+        $request->addApiParam('target_language', $target_language);
+        $request->addApiParam('page_size', $page_size);
+        $request->addApiParam('sort', $sort);
+        $request->addApiParam('page_no', $page_no);
+        $request->addApiParam('category_id', $category_id);
+        $request->addApiParam('feed_name', $feed_name);
+        $res = $c->execute($request);
         return $res;
     }
 }

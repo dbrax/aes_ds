@@ -18,8 +18,8 @@ composer require epmnzava/ae_ds
 
         $ae = new AeDs($api_key,$api_secret,$code);
         $token=$ae->getAccessToken();
+
         //then store both token and refresh token on database or file to use later
-        // $token = $ae->getRefreshToken("50001800c43uzc9mwoUcf5lVHkThxvjBcBxeNzweJlNG1IStAkoB5UX102bcbcdoHAZs");
 ```
 
 ### get categories

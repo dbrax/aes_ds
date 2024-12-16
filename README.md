@@ -12,8 +12,56 @@ composer require epmnzava/ae_ds
 
 ## Usage
 
+### get access token and refresh token
+
 ```php
-// Usage description here
+
+        $ae = new AeDs($api_key,$api_secret,$code);
+        $token=$ae->getAccessToken();
+        //then store both token and refresh token on database or file to use later
+        // $token = $ae->getRefreshToken("50001800c43uzc9mwoUcf5lVHkThxvjBcBxeNzweJlNG1IStAkoB5UX102bcbcdoHAZs");
+```
+
+### get categories
+
+```php
+
+        $ae = new AeDs($api_key,$api_secret,$code);
+        $res = $ae->getCategories("en");
+        // it will give list of categories
+```
+
+### get category
+
+```php
+
+        $ae = new AeDs($api_key,$api_secret,$code);
+
+        $lang="en";
+        $res = $ae->getCategoryById($categoryid,$lang);
+
+          // it will give details of one category
+```
+
+### get products on feedname
+
+```php
+
+        $ae = new AeDs($api_key,$api_secret,$code);
+        //used feedname tanzaniaselection for Tanzania targeted products   i.e $category_id=6 for home appliace
+        $res = $ae->$ae->getItemListByFeedName("tanzaniaselection", $page_no, $page_size, $category_id);
+        // it will give list of products on category_id , if no category id you will get all products
+```
+
+### get product
+
+```php
+
+        $ae = new AeDs($api_key,$api_secret,$code);
+                $token = $ae->getRefreshToken($refresh_token);
+
+          $res = $ae->getProduct($token, $product_id);
+          // it will give you only one product with all details
 ```
 
 ### Testing

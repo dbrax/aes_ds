@@ -58,9 +58,9 @@ composer require epmnzava/ae_ds
 ```php
 
         $ae = new AeDs($api_key,$api_secret,$code);
-                $token = $ae->getRefreshToken($refresh_token);
+        $token = $ae->getRefreshToken($refresh_token);
 
-          $res = $ae->getProduct($token, $product_id);
+        $res = $ae->getProduct($token, $product_id);
           // it will give you only one product with all details
 ```
 

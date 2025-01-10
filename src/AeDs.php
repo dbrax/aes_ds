@@ -60,10 +60,10 @@ class AeDs
 
         try {
             $response = $client->execute($request, null);
-            $this->token = json_decode($response)->access_token;
+            //$this->token = json_decode($response)->access_token;
 
             $this->refresh_token = json_decode($response)->refresh_token;
-            return json_decode($response)->access_token;
+            return json_decode($response)->refresh_token;
         } catch (Exception $e) {
             echo $e->getMessage();
         }

@@ -40,7 +40,7 @@ class AeDs
             $this->token = json_decode($response)->access_token;
 
             $this->refresh_token = json_decode($response)->refresh_token;
-            return json_decode($response)->access_token;
+            return json_decode($response);
         } catch (Exception $e) {
             echo $e->getMessage();
         }
